@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Ticket Booking</title>
+<link rel="stylesheet" href="Case Study -3.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🚍 Travel Easy 🚆</h1>
+    <p>Book Your Bus and Train Tickets</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#booking">Book Tickets</a>
+    <a href="#services">Services</a>
+    <a href="#seats">Seat Selection</a>
+</nav>
+
+<div class="box" id="home">
+    <h2>Welcome to Travel Easy!</h2>
+    <p>Plan your journey and explore available travel services.</p>
+</div>
+
+<div class="box" id="booking">
+    <h2>🎫 Ticket Booking Form</h2>
+
+    <form>
+        <label>From:</label>
+        <input type="text" placeholder="Enter source city" required><br>
+
+        <label>To:</label>
+        <input type="text" placeholder="Enter destination city" required><br>
+
+        <label>Travel Date:</label>
+        <input type="date" required><br>
+
+        <label>Travel Type:</label>
+        <select required>
+            <option value="checkbox">Select travel type</option>
+            <option>Bus</option>
+            <option>Train</option>
+        </select><br>
+
+        <label>Passenger Name:</label>
+        <input type="text" placeholder="Enter passenger name" required><br>
+
+        <label>Number of Passengers:</label>
+        <select required>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select><br>
+
+        <button type="submit">Search Tickets</button>
+    </form>
+</div>
+
+<div class="box" id="services">
+    <h2>🚌 Available Bus Services</h2>
+
+    <div class="card">
+        <h3>Express Bus</h3>
+        <p>Time: 9:00 AM</p>
+        <p>Fare: ₹500</p>
+        <p>Seats: 20 Available</p>
+        <button type="button">Select Bus</button>
+    </div>
+
+    <div class="card">
+        <h3>AC Bus</h3>
+        <p>Time: 11:00 AM</p>
+        <p>Fare: ₹750</p>
+        <p>Seats: 15 Available</p>
+        <button type="button">Select Bus</button>
+    </div>
+
+    <h2>🚆 Available Train Services</h2>
+
+    <div class="card">
+        <h3>Passenger Train</h3>
+        <p>Time: 8:00 AM</p>
+        <p>Fare: ₹250</p>
+        <p>Seats: 30 Available</p>
+        <button type="button">Select Train</button>
+    </div>
+
+    <div class="card">
+        <h3>Express Train</h3>
+        <p>Time: 2:00 PM</p>
+        <p>Fare: ₹400</p>
+        <p>Seats: 25 Available</p>
+        <button type="button">Select Train</button>
+    </div>
+</div>
+
+<div class="box">
+    <h2>💰 Fare Details</h2>
+
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Departure</th>
+            <th>Fare</th>
+        </tr>
+        <tr>
+            <td>Express Bus</td>
+            <td>9:00 AM</td>
+            <td>₹500</td>
+        </tr>
+        <tr>
+            <td>AC Bus</td>
+            <td>11:00 AM</td>
+            <td>₹750</td>
+        </tr>
+        <tr>
+            <td>Passenger Train</td>
+            <td>8:00 AM</td>
+            <td>₹250</td>
+        </tr>
+        <tr>
+            <td>Express Train</td>
+            <td>2:00 PM</td>
+            <td>₹400</td>
+        </tr>
+    </table>
+</div>
+
+<div class="box" id="seats">
+    <h2>💺 Seat Selection</h2>
+    <p>Select your preferred seat:</p>
+
+    <form>
+        <label>Choose Seat:</label>
+        <select>
+            <option value="">Select a seat</option>
+            <option>A1</option>
+            <option>A2</option>
+            <option>A3</option>
+            <option>B1</option>
+            <option>B2</option>
+            <option>B3</option>
+        </select>
+
+        <button type="button">Confirm Seat</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2026 Travel Easy</p>
+    <p>Have a Safe and Happy Journey!</p>
+</footer>
+
+</body>
+</html>
